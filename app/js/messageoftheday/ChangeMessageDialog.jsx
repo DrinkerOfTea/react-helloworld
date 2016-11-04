@@ -46,8 +46,8 @@ class ChangeMessageDialog extends React.Component {
     }
 }
 
-ChangeMessageDialog.PropTypes = {
-    open:            React.PropTypes.bool.required,
+ChangeMessageDialog.propTypes = {
+    open:            React.PropTypes.bool.isRequired,
     onMessageChosen: React.PropTypes.func
 }
 
